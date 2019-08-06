@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap.flatly.css">
-    <title>Data</title>
+    <title>Wind Speed</title>
 </head>
 
 <body>       
@@ -46,6 +46,72 @@
             </div>
         </div>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="bs-component">
+                    <div class="jumbotron">
+                        <h3>
+                            Wind Speed
+                        </h3>
+                        <hr class="my-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/Fig4.png" alt="Latitude vs. Wind Speed">
+                        </div>
+                        <p style="margin-top: 20px;">
+                            This graph shows a potential quadratic relationship between windspeed and latitude.
+                            Cities closer to the equater look to have slower windspeeds than those further from the 
+                            equator.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="bs-component">
+                    <div class="jumbotron">
+                        <h3>Visualizations</h3>
+                        <hr class="my-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Fig1.png" alt="Latitude vs. Temperature">
+                                        <a href="max_temperature.html" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Fig2.png" alt="Latitude vs. Humidity">
+                                        <a href="humidity.html" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row top-buffer">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Fig3.png" alt="Latitude vs. Cloudiness">
+                                        <a href="cloudiness.html" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Fig4.png" alt="Latitude vs. Wind Speed">
+                                        <a href="windspeed.html" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
